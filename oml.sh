@@ -1,1 +1,2 @@
+#!/bin/bash
 curl https://gitlab.com/omnileads/ominicontacto/-/raw/master/install/onpremise/deploy/ansible/first_boot_installer.tpl?inline=false > first_boot_installer.sh && chmod +x first_boot_installer.sh
