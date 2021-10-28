@@ -1,6 +1,15 @@
 #!/bin/bash
 
 ########################## README ############ README ############# README #########################
+#                               ___  _                             
+#                              / _ \| |                            
+#                             / /_\ \ |_ ___ _   _ _ __ ___  _   _ 
+#                             |  _  | __/ __| | | | '_ ` _ \| | | |
+#                             | | | | |_\__ \ |_| | | | | | | |_| |
+#                             \_| |_/\__|___/\__,_|_| |_| |_|\__,_|
+########################## README ############ README ############# README #########################
+
+########################## README ############ README ############# README #########################
 # El script first_boot_installer, tiene como finalidad desplegar el componente sobre una instancia
 # de linux exclusiva. Las variables que utiliza son "variables de entorno" de la instancia que está
 # por lanzar el script como acto seguido al primer boot del sistema operativo.
@@ -438,5 +447,14 @@ if [[ "${oml_app_install_sngrep}" == "true" ]];then
   cd sngrep && ./bootstrap.sh && ./configure && make && make install
   ln -s /usr/local/bin/sngrep /usr/bin/sngrep
 fi
+
+########################## README ############ README ############# README #########################
+#                               ___  _                             
+#                              / _ \| |                            
+#                             / /_\ \ |_ ___ _   _ _ __ ___  _   _ 
+#                             |  _  | __/ __| | | | '_ ` _ \| | | |
+#                             | | | | |_\__ \ |_| | | | | | | |_| |
+#                             \_| |_/\__|___/\__,_|_| |_| |_|\__,_|
+########################## README ############ README ############# README #########################
 
 reboot
