@@ -1,0 +1,8 @@
+curl -s --user SOPORTE1980:Thor.2017. \
+https://z86pw.api.infobip.com/email/2/send \
+-F from='Juan Castillo <jfc@1980tic.com>' \
+-F to='fcc.95@hotmail.com' \
+-F replyTo='jfc@1980tic.com' \
+-F subject='Prueba' \
+-F text='Prueba' \
+--form-string html='<h1>Html body</h1><p>Rich HTML message body.</p>' \
